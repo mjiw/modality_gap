@@ -1,0 +1,24 @@
+# ── 임베딩 캐시 (약 1.2GB) ──
+# encode_vlm2vec.py / encode_vlm2vec_v2.py 로 재생성 가능.
+# open_clip 계열은 data_loader.py 가 없으면 자동 인코딩.
+cache/
+
+# ── 이 논문과 무관한 스크립트 (외부 API 호출) ──
+aisum_make_key.py
+
+# ── 실행 불가 (data_loader 에 load_wit_paired_largescale 없음) ──
+fig_pca_vs_svd_diff.py
+multimodal_subspace_visualization.py
+
+# ── 미사용 (산출물 없음) ──
+mixbench_three_experiments_ext.py
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ── OS ──
+.DS_Store
+Thumbs.db
